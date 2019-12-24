@@ -2,7 +2,7 @@
 
 OUT=cputimes.csv
 
-REPETITIONS=3
+REPETITIONS=30
 
 TIMEFORMAT='%3R'
 
@@ -12,7 +12,7 @@ MAPS="1 2 3 4"
 
 ALG="1 2"
 
-CPUS="1 2 4 6 8 10 12"
+CPUS="1 2 4"
 
 echo CPUs ";" ALG ";" MAP ";" TIME > $OUT
 
